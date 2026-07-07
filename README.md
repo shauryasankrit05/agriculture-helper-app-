@@ -475,5 +475,5 @@ This app aims to:
 
 ---
 
-**Made with 🌱 for Indian Farmers | © 2025**
+**Made with 🌱 for Indian Farmers | © 2027**
 
