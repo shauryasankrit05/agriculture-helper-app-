@@ -1,0 +1,1084 @@
+[
+  {
+    "id": "CROP001",
+    "name": "Wheat",
+    "aliases": ["Gehun", "गेहूं", "Godhuma"],
+    "scientific_name": "Triticum aestivum",
+    "family": "Poaceae",
+    "category": "Cereals",
+    "season": "Rabi",
+    "crop_duration": 120,
+    "expected_yield": 50,
+    "water_requirement": 450,
+    "soil_type": ["Loamy", "Clay Loam"],
+    "ph_range": { "min": 6.0, "max": 7.5 },
+    "description": "Wheat is the most important cereal crop in India, primarily grown in the northern plains during the Rabi season. It is a staple food for millions.",
+    "seed": {
+      "rate": 100,
+      "germination": 85,
+      "viability": 2,
+      "planting_depth": 5,
+      "spacing": "20x10",
+      "treatment": "Carbendazim @ 2g/kg seed"
+    },
+    "temperature": {
+      "optimal_min": 15,
+      "optimal_max": 25,
+      "critical_min": 0,
+      "critical_max": 40,
+      "frost_tolerance": "Moderate"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 60, "phosphorus": 40, "potassium": 40, "timing": "At sowing" },
+      { "stage": "First Top Dress", "nitrogen": 30, "phosphorus": 0, "potassium": 0, "timing": "21 days after sowing" },
+      { "stage": "Second Top Dress", "nitrogen": 30, "phosphorus": 0, "potassium": 0, "timing": "45 days after sowing" }
+    ],
+    "calendar": {
+      "sowing": ["Oct", "Nov"],
+      "vegetative": ["Dec", "Jan"],
+      "flowering": ["Feb"],
+      "maturity": ["Mar"],
+      "harvest": ["Mar", "Apr"]
+    },
+    "msp": 2275,
+    "pest_diseases": ["Rust", "Aphids", "Powdery Mildew", "Karnal Bunt"]
+  },
+  {
+    "id": "CROP002",
+    "name": "Rice",
+    "aliases": ["Chawal", "चावल", "धान", "Paddy", "Dhan"],
+    "scientific_name": "Oryza sativa",
+    "family": "Poaceae",
+    "category": "Cereals",
+    "season": "Kharif",
+    "crop_duration": 130,
+    "expected_yield": 55,
+    "water_requirement": 1200,
+    "soil_type": ["Clay", "Clay Loam", "Silty Clay"],
+    "ph_range": { "min": 5.5, "max": 7.0 },
+    "description": "Rice is the principal food crop of India and the main crop of the Kharif season. India is the second-largest producer of rice in the world.",
+    "seed": {
+      "rate": 60,
+      "germination": 80,
+      "viability": 2,
+      "planting_depth": 3,
+      "spacing": "20x15",
+      "treatment": "Carbendazim @ 2g/kg seed"
+    },
+    "temperature": {
+      "optimal_min": 20,
+      "optimal_max": 35,
+      "critical_min": 10,
+      "critical_max": 42,
+      "frost_tolerance": "Low"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 40, "phosphorus": 40, "potassium": 40, "timing": "At transplanting" },
+      { "stage": "Tillering", "nitrogen": 40, "phosphorus": 0, "potassium": 0, "timing": "21 days after transplanting" },
+      { "stage": "Panicle Initiation", "nitrogen": 40, "phosphorus": 0, "potassium": 0, "timing": "45 days after transplanting" }
+    ],
+    "calendar": {
+      "sowing": ["Jun", "Jul"],
+      "vegetative": ["Jul", "Aug"],
+      "flowering": ["Sep"],
+      "maturity": ["Oct"],
+      "harvest": ["Oct", "Nov"]
+    },
+    "msp": 2203,
+    "pest_diseases": ["Blast", "Brown Plant Hopper", "Stem Borer", "Sheath Blight"]
+  },
+  {
+    "id": "CROP003",
+    "name": "Maize",
+    "aliases": ["Makka", "मक्का", "Corn", "Bhutta"],
+    "scientific_name": "Zea mays",
+    "family": "Poaceae",
+    "category": "Cereals",
+    "season": "Kharif",
+    "crop_duration": 100,
+    "expected_yield": 60,
+    "water_requirement": 500,
+    "soil_type": ["Sandy Loam", "Loamy"],
+    "ph_range": { "min": 5.5, "max": 7.5 },
+    "description": "Maize is a versatile cereal crop used for food, feed, and industrial purposes. It is the third most important cereal crop in India after rice and wheat.",
+    "seed": {
+      "rate": 20,
+      "germination": 90,
+      "viability": 2,
+      "planting_depth": 5,
+      "spacing": "60x20",
+      "treatment": "Thiram @ 3g/kg seed"
+    },
+    "temperature": {
+      "optimal_min": 21,
+      "optimal_max": 30,
+      "critical_min": 10,
+      "critical_max": 45,
+      "frost_tolerance": "Low"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 40, "phosphorus": 60, "potassium": 40, "timing": "At sowing" },
+      { "stage": "Knee High", "nitrogen": 40, "phosphorus": 0, "potassium": 0, "timing": "25 days after sowing" },
+      { "stage": "Tasseling", "nitrogen": 40, "phosphorus": 0, "potassium": 0, "timing": "45 days after sowing" }
+    ],
+    "calendar": {
+      "sowing": ["Jun", "Jul"],
+      "vegetative": ["Jul", "Aug"],
+      "flowering": ["Aug", "Sep"],
+      "maturity": ["Sep"],
+      "harvest": ["Sep", "Oct"]
+    },
+    "msp": 2090,
+    "pest_diseases": ["Fall Armyworm", "Stem Borer", "Turcicum Leaf Blight"]
+  },
+  {
+    "id": "CROP004",
+    "name": "Cotton",
+    "aliases": ["Kapas", "कपास", "Rui"],
+    "scientific_name": "Gossypium hirsutum",
+    "family": "Malvaceae",
+    "category": "Cash Crops",
+    "season": "Kharif",
+    "crop_duration": 180,
+    "expected_yield": 20,
+    "water_requirement": 700,
+    "soil_type": ["Black Cotton Soil", "Loamy"],
+    "ph_range": { "min": 6.0, "max": 8.0 },
+    "description": "Cotton is the most important fiber crop in India, also known as 'White Gold'. India is the largest producer of cotton in the world.",
+    "seed": {
+      "rate": 15,
+      "germination": 75,
+      "viability": 1,
+      "planting_depth": 4,
+      "spacing": "90x60",
+      "treatment": "Imidacloprid seed treatment"
+    },
+    "temperature": {
+      "optimal_min": 21,
+      "optimal_max": 35,
+      "critical_min": 15,
+      "critical_max": 45,
+      "frost_tolerance": "Very Low"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 40, "phosphorus": 40, "potassium": 20, "timing": "At sowing" },
+      { "stage": "Square Formation", "nitrogen": 40, "phosphorus": 0, "potassium": 0, "timing": "30 days after sowing" },
+      { "stage": "Boll Formation", "nitrogen": 40, "phosphorus": 0, "potassium": 20, "timing": "60 days after sowing" }
+    ],
+    "calendar": {
+      "sowing": ["May", "Jun"],
+      "vegetative": ["Jun", "Jul", "Aug"],
+      "flowering": ["Aug", "Sep"],
+      "maturity": ["Oct", "Nov"],
+      "harvest": ["Nov", "Dec", "Jan"]
+    },
+    "msp": 6620,
+    "pest_diseases": ["Bollworm", "Whitefly", "Jassids", "Pink Bollworm"]
+  },
+  {
+    "id": "CROP005",
+    "name": "Sugarcane",
+    "aliases": ["Ganna", "गन्ना", "Ikh"],
+    "scientific_name": "Saccharum officinarum",
+    "family": "Poaceae",
+    "category": "Cash Crops",
+    "season": "Kharif",
+    "crop_duration": 365,
+    "expected_yield": 800,
+    "water_requirement": 2000,
+    "soil_type": ["Loamy", "Clay Loam"],
+    "ph_range": { "min": 6.0, "max": 7.5 },
+    "description": "Sugarcane is a major cash crop in India used for sugar production. India is the second-largest producer of sugarcane in the world.",
+    "seed": {
+      "rate": 40000,
+      "germination": 70,
+      "viability": 1,
+      "planting_depth": 8,
+      "spacing": "90x30",
+      "treatment": "Dipping setts in Carbendazim solution"
+    },
+    "temperature": {
+      "optimal_min": 25,
+      "optimal_max": 35,
+      "critical_min": 15,
+      "critical_max": 45,
+      "frost_tolerance": "Low"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 50, "phosphorus": 60, "potassium": 60, "timing": "At planting" },
+      { "stage": "Early Tillering", "nitrogen": 75, "phosphorus": 0, "potassium": 0, "timing": "45 days" },
+      { "stage": "Late Tillering", "nitrogen": 75, "phosphorus": 0, "potassium": 0, "timing": "90 days" }
+    ],
+    "calendar": {
+      "sowing": ["Feb", "Mar"],
+      "vegetative": ["Apr", "May", "Jun", "Jul"],
+      "flowering": ["Aug", "Sep", "Oct"],
+      "maturity": ["Nov", "Dec"],
+      "harvest": ["Jan", "Feb", "Mar"]
+    },
+    "msp": 315,
+    "pest_diseases": ["Red Rot", "Smut", "Top Shoot Borer", "Woolly Aphid"]
+  },
+  {
+    "id": "CROP006",
+    "name": "Tomato",
+    "aliases": ["Tamatar", "टमाटर"],
+    "scientific_name": "Solanum lycopersicum",
+    "family": "Solanaceae",
+    "category": "Vegetables",
+    "season": "Rabi",
+    "crop_duration": 90,
+    "expected_yield": 250,
+    "water_requirement": 600,
+    "soil_type": ["Sandy Loam", "Loamy"],
+    "ph_range": { "min": 6.0, "max": 7.0 },
+    "description": "Tomato is the most important vegetable crop in India, grown throughout the year in different parts of the country. Rich in vitamins A and C.",
+    "seed": {
+      "rate": 0.5,
+      "germination": 85,
+      "viability": 3,
+      "planting_depth": 1,
+      "spacing": "60x45",
+      "treatment": "Trichoderma seed treatment"
+    },
+    "temperature": {
+      "optimal_min": 18,
+      "optimal_max": 27,
+      "critical_min": 10,
+      "critical_max": 38,
+      "frost_tolerance": "Low"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 50, "phosphorus": 60, "potassium": 50, "timing": "At transplanting" },
+      { "stage": "Flowering", "nitrogen": 25, "phosphorus": 0, "potassium": 25, "timing": "30 days" },
+      { "stage": "Fruiting", "nitrogen": 25, "phosphorus": 0, "potassium": 25, "timing": "60 days" }
+    ],
+    "calendar": {
+      "sowing": ["Sep", "Oct"],
+      "vegetative": ["Oct", "Nov"],
+      "flowering": ["Nov", "Dec"],
+      "maturity": ["Dec", "Jan"],
+      "harvest": ["Jan", "Feb", "Mar"]
+    },
+    "msp": null,
+    "pest_diseases": ["Early Blight", "Late Blight", "Fruit Borer", "Leaf Curl Virus"]
+  },
+  {
+    "id": "CROP007",
+    "name": "Potato",
+    "aliases": ["Aloo", "आलू", "Batata"],
+    "scientific_name": "Solanum tuberosum",
+    "family": "Solanaceae",
+    "category": "Vegetables",
+    "season": "Rabi",
+    "crop_duration": 100,
+    "expected_yield": 300,
+    "water_requirement": 500,
+    "soil_type": ["Sandy Loam", "Loamy"],
+    "ph_range": { "min": 5.5, "max": 6.5 },
+    "description": "Potato is the most important non-cereal food crop in India. It is a rich source of carbohydrates, vitamins, and minerals.",
+    "seed": {
+      "rate": 2500,
+      "germination": 90,
+      "viability": 1,
+      "planting_depth": 5,
+      "spacing": "60x20",
+      "treatment": "Mancozeb dip before planting"
+    },
+    "temperature": {
+      "optimal_min": 15,
+      "optimal_max": 22,
+      "critical_min": 5,
+      "critical_max": 30,
+      "frost_tolerance": "Low"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 100, "phosphorus": 60, "potassium": 80, "timing": "At planting" },
+      { "stage": "Earthing Up", "nitrogen": 50, "phosphorus": 0, "potassium": 0, "timing": "30 days" }
+    ],
+    "calendar": {
+      "sowing": ["Oct", "Nov"],
+      "vegetative": ["Nov", "Dec"],
+      "flowering": ["Dec", "Jan"],
+      "maturity": ["Jan", "Feb"],
+      "harvest": ["Feb", "Mar"]
+    },
+    "msp": null,
+    "pest_diseases": ["Late Blight", "Early Blight", "Black Scurf", "Potato Tuber Moth"]
+  },
+  {
+    "id": "CROP008",
+    "name": "Onion",
+    "aliases": ["Pyaaz", "प्याज", "Kanda"],
+    "scientific_name": "Allium cepa",
+    "family": "Amaryllidaceae",
+    "category": "Vegetables",
+    "season": "Rabi",
+    "crop_duration": 130,
+    "expected_yield": 250,
+    "water_requirement": 550,
+    "soil_type": ["Sandy Loam", "Loamy"],
+    "ph_range": { "min": 6.0, "max": 7.0 },
+    "description": "Onion is one of the most important commercial vegetable crops grown in India. It is used as a condiment and vegetable throughout the country.",
+    "seed": {
+      "rate": 10,
+      "germination": 75,
+      "viability": 1,
+      "planting_depth": 2,
+      "spacing": "15x10",
+      "treatment": "Thiram @ 3g/kg seed"
+    },
+    "temperature": {
+      "optimal_min": 15,
+      "optimal_max": 25,
+      "critical_min": 5,
+      "critical_max": 35,
+      "frost_tolerance": "Moderate"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 40, "phosphorus": 40, "potassium": 40, "timing": "At transplanting" },
+      { "stage": "Bulb Formation", "nitrogen": 40, "phosphorus": 0, "potassium": 20, "timing": "30 days" },
+      { "stage": "Bulb Development", "nitrogen": 20, "phosphorus": 0, "potassium": 0, "timing": "45 days" }
+    ],
+    "calendar": {
+      "sowing": ["Nov", "Dec"],
+      "vegetative": ["Dec", "Jan"],
+      "flowering": ["Jan", "Feb"],
+      "maturity": ["Feb", "Mar"],
+      "harvest": ["Mar", "Apr"]
+    },
+    "msp": null,
+    "pest_diseases": ["Purple Blotch", "Downy Mildew", "Thrips", "Stemphylium Blight"]
+  },
+  {
+    "id": "CROP009",
+    "name": "Soybean",
+    "aliases": ["Soya", "सोयाबीन", "Bhat"],
+    "scientific_name": "Glycine max",
+    "family": "Fabaceae",
+    "category": "Oilseeds",
+    "season": "Kharif",
+    "crop_duration": 95,
+    "expected_yield": 25,
+    "water_requirement": 450,
+    "soil_type": ["Clay Loam", "Loamy"],
+    "ph_range": { "min": 6.0, "max": 7.5 },
+    "description": "Soybean is the most important oilseed crop in India, also called the 'Golden Bean'. Rich in protein (40%) and oil (20%).",
+    "seed": {
+      "rate": 75,
+      "germination": 70,
+      "viability": 1,
+      "planting_depth": 3,
+      "spacing": "45x5",
+      "treatment": "Rhizobium inoculation + Thiram"
+    },
+    "temperature": {
+      "optimal_min": 20,
+      "optimal_max": 30,
+      "critical_min": 10,
+      "critical_max": 40,
+      "frost_tolerance": "Low"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 20, "phosphorus": 60, "potassium": 40, "timing": "At sowing" },
+      { "stage": "Flowering", "nitrogen": 0, "phosphorus": 0, "potassium": 20, "timing": "35 days" }
+    ],
+    "calendar": {
+      "sowing": ["Jun", "Jul"],
+      "vegetative": ["Jul", "Aug"],
+      "flowering": ["Aug", "Sep"],
+      "maturity": ["Sep"],
+      "harvest": ["Sep", "Oct"]
+    },
+    "msp": 4600,
+    "pest_diseases": ["Stem Fly", "Girdle Beetle", "Yellow Mosaic Virus", "Rust"]
+  },
+  {
+    "id": "CROP010",
+    "name": "Groundnut",
+    "aliases": ["Moongfali", "मूंगफली", "Peanut"],
+    "scientific_name": "Arachis hypogaea",
+    "family": "Fabaceae",
+    "category": "Oilseeds",
+    "season": "Kharif",
+    "crop_duration": 110,
+    "expected_yield": 20,
+    "water_requirement": 500,
+    "soil_type": ["Sandy Loam", "Red Soil"],
+    "ph_range": { "min": 5.5, "max": 7.0 },
+    "description": "Groundnut is a major oilseed crop also known as peanut. India ranks second in groundnut production globally.",
+    "seed": {
+      "rate": 100,
+      "germination": 80,
+      "viability": 1,
+      "planting_depth": 5,
+      "spacing": "30x10",
+      "treatment": "Thiram @ 3g/kg + Rhizobium"
+    },
+    "temperature": {
+      "optimal_min": 25,
+      "optimal_max": 30,
+      "critical_min": 15,
+      "critical_max": 40,
+      "frost_tolerance": "Very Low"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 25, "phosphorus": 50, "potassium": 45, "timing": "At sowing" },
+      { "stage": "Pegging", "nitrogen": 0, "phosphorus": 0, "potassium": 0, "timing": "Gypsum @ 500 kg/ha at 45 days" }
+    ],
+    "calendar": {
+      "sowing": ["Jun", "Jul"],
+      "vegetative": ["Jul", "Aug"],
+      "flowering": ["Aug"],
+      "maturity": ["Sep"],
+      "harvest": ["Oct", "Nov"]
+    },
+    "msp": 6377,
+    "pest_diseases": ["Tikka Disease", "Collar Rot", "Stem Rot", "White Grub"]
+  },
+  {
+    "id": "CROP011",
+    "name": "Mustard",
+    "aliases": ["Sarson", "सरसों", "Rai"],
+    "scientific_name": "Brassica juncea",
+    "family": "Brassicaceae",
+    "category": "Oilseeds",
+    "season": "Rabi",
+    "crop_duration": 120,
+    "expected_yield": 15,
+    "water_requirement": 350,
+    "soil_type": ["Sandy Loam", "Loamy"],
+    "ph_range": { "min": 6.0, "max": 7.5 },
+    "description": "Mustard is the most important Rabi oilseed crop in India. Mustard oil is widely used for cooking in northern and eastern India.",
+    "seed": {
+      "rate": 5,
+      "germination": 85,
+      "viability": 2,
+      "planting_depth": 2,
+      "spacing": "30x10",
+      "treatment": "Metalaxyl @ 6g/kg seed"
+    },
+    "temperature": {
+      "optimal_min": 12,
+      "optimal_max": 25,
+      "critical_min": 5,
+      "critical_max": 35,
+      "frost_tolerance": "Moderate"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 40, "phosphorus": 40, "potassium": 20, "timing": "At sowing" },
+      { "stage": "Top Dress", "nitrogen": 40, "phosphorus": 0, "potassium": 0, "timing": "30 days after sowing" }
+    ],
+    "calendar": {
+      "sowing": ["Oct", "Nov"],
+      "vegetative": ["Nov", "Dec"],
+      "flowering": ["Jan"],
+      "maturity": ["Feb"],
+      "harvest": ["Feb", "Mar"]
+    },
+    "msp": 5650,
+    "pest_diseases": ["Aphids", "White Rust", "Alternaria Blight", "Sclerotinia Rot"]
+  },
+  {
+    "id": "CROP012",
+    "name": "Chickpea",
+    "aliases": ["Chana", "चना", "Bengal Gram"],
+    "scientific_name": "Cicer arietinum",
+    "family": "Fabaceae",
+    "category": "Pulses",
+    "season": "Rabi",
+    "crop_duration": 100,
+    "expected_yield": 18,
+    "water_requirement": 300,
+    "soil_type": ["Sandy Loam", "Loamy"],
+    "ph_range": { "min": 6.0, "max": 7.5 },
+    "description": "Chickpea is the most important pulse crop in India, accounting for nearly 40% of total pulse production. Rich in protein (20-22%).",
+    "seed": {
+      "rate": 80,
+      "germination": 85,
+      "viability": 2,
+      "planting_depth": 5,
+      "spacing": "30x10",
+      "treatment": "Rhizobium + Trichoderma"
+    },
+    "temperature": {
+      "optimal_min": 15,
+      "optimal_max": 25,
+      "critical_min": 5,
+      "critical_max": 35,
+      "frost_tolerance": "Moderate"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 20, "phosphorus": 40, "potassium": 20, "timing": "At sowing" }
+    ],
+    "calendar": {
+      "sowing": ["Oct", "Nov"],
+      "vegetative": ["Nov", "Dec"],
+      "flowering": ["Jan"],
+      "maturity": ["Feb"],
+      "harvest": ["Feb", "Mar"]
+    },
+    "msp": 5440,
+    "pest_diseases": ["Wilt", "Pod Borer", "Ascochyta Blight", "Dry Root Rot"]
+  },
+  {
+    "id": "CROP013",
+    "name": "Lentil",
+    "aliases": ["Masoor", "मसूर", "Masur Dal"],
+    "scientific_name": "Lens culinaris",
+    "family": "Fabaceae",
+    "category": "Pulses",
+    "season": "Rabi",
+    "crop_duration": 110,
+    "expected_yield": 12,
+    "water_requirement": 250,
+    "soil_type": ["Sandy Loam", "Loamy", "Clay Loam"],
+    "ph_range": { "min": 6.0, "max": 7.0 },
+    "description": "Lentil is a highly nutritious pulse crop grown during Rabi season. It is a major source of plant-based protein in Indian diets.",
+    "seed": {
+      "rate": 40,
+      "germination": 80,
+      "viability": 2,
+      "planting_depth": 4,
+      "spacing": "25x5",
+      "treatment": "Rhizobium inoculation"
+    },
+    "temperature": {
+      "optimal_min": 15,
+      "optimal_max": 25,
+      "critical_min": 5,
+      "critical_max": 30,
+      "frost_tolerance": "Moderate"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 20, "phosphorus": 40, "potassium": 20, "timing": "At sowing" }
+    ],
+    "calendar": {
+      "sowing": ["Oct", "Nov"],
+      "vegetative": ["Nov", "Dec"],
+      "flowering": ["Jan"],
+      "maturity": ["Feb"],
+      "harvest": ["Feb", "Mar"]
+    },
+    "msp": 6425,
+    "pest_diseases": ["Wilt", "Rust", "Aphids", "Pod Borer"]
+  },
+  {
+    "id": "CROP014",
+    "name": "Mung Bean",
+    "aliases": ["Moong", "मूंग", "Green Gram"],
+    "scientific_name": "Vigna radiata",
+    "family": "Fabaceae",
+    "category": "Pulses",
+    "season": "Kharif",
+    "crop_duration": 65,
+    "expected_yield": 10,
+    "water_requirement": 300,
+    "soil_type": ["Sandy Loam", "Loamy"],
+    "ph_range": { "min": 6.2, "max": 7.2 },
+    "description": "Mung bean is one of the most important pulse crops in India. It is a short-duration crop ideal for crop rotation and inter-cropping.",
+    "seed": {
+      "rate": 20,
+      "germination": 85,
+      "viability": 2,
+      "planting_depth": 3,
+      "spacing": "30x10",
+      "treatment": "Rhizobium + Carbendazim"
+    },
+    "temperature": {
+      "optimal_min": 25,
+      "optimal_max": 35,
+      "critical_min": 15,
+      "critical_max": 40,
+      "frost_tolerance": "Very Low"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 20, "phosphorus": 40, "potassium": 20, "timing": "At sowing" }
+    ],
+    "calendar": {
+      "sowing": ["Jul"],
+      "vegetative": ["Jul", "Aug"],
+      "flowering": ["Aug"],
+      "maturity": ["Sep"],
+      "harvest": ["Sep"]
+    },
+    "msp": 8558,
+    "pest_diseases": ["Yellow Mosaic Virus", "Cercospora Leaf Spot", "Whitefly"]
+  },
+  {
+    "id": "CROP015",
+    "name": "Turmeric",
+    "aliases": ["Haldi", "हल्दी"],
+    "scientific_name": "Curcuma longa",
+    "family": "Zingiberaceae",
+    "category": "Spices",
+    "season": "Kharif",
+    "crop_duration": 240,
+    "expected_yield": 250,
+    "water_requirement": 1500,
+    "soil_type": ["Sandy Loam", "Clay Loam"],
+    "ph_range": { "min": 5.0, "max": 7.5 },
+    "description": "Turmeric is an important spice crop of India. India is the world's largest producer and exporter of turmeric.",
+    "seed": {
+      "rate": 2500,
+      "germination": 75,
+      "viability": 1,
+      "planting_depth": 5,
+      "spacing": "45x15",
+      "treatment": "Mancozeb dip for 30 min"
+    },
+    "temperature": {
+      "optimal_min": 20,
+      "optimal_max": 30,
+      "critical_min": 15,
+      "critical_max": 40,
+      "frost_tolerance": "Low"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 30, "phosphorus": 30, "potassium": 60, "timing": "At planting" },
+      { "stage": "First Top Dress", "nitrogen": 30, "phosphorus": 0, "potassium": 0, "timing": "60 days" },
+      { "stage": "Second Top Dress", "nitrogen": 30, "phosphorus": 0, "potassium": 0, "timing": "120 days" }
+    ],
+    "calendar": {
+      "sowing": ["May", "Jun"],
+      "vegetative": ["Jul", "Aug", "Sep"],
+      "flowering": ["Oct"],
+      "maturity": ["Nov", "Dec"],
+      "harvest": ["Jan", "Feb"]
+    },
+    "msp": null,
+    "pest_diseases": ["Rhizome Rot", "Leaf Blotch", "Shoot Borer", "Scale Insect"]
+  },
+  {
+    "id": "CROP016",
+    "name": "Chili",
+    "aliases": ["Mirchi", "मिर्च", "Pepper", "Lal Mirch"],
+    "scientific_name": "Capsicum annuum",
+    "family": "Solanaceae",
+    "category": "Spices",
+    "season": "Kharif",
+    "crop_duration": 150,
+    "expected_yield": 20,
+    "water_requirement": 600,
+    "soil_type": ["Sandy Loam", "Loamy"],
+    "ph_range": { "min": 6.0, "max": 7.0 },
+    "description": "Chili is the most important spice crop in India used for its pungency. India is the world's largest producer and consumer of chili.",
+    "seed": {
+      "rate": 1.5,
+      "germination": 80,
+      "viability": 2,
+      "planting_depth": 1,
+      "spacing": "60x45",
+      "treatment": "Trichoderma seed treatment"
+    },
+    "temperature": {
+      "optimal_min": 20,
+      "optimal_max": 30,
+      "critical_min": 10,
+      "critical_max": 40,
+      "frost_tolerance": "Very Low"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 40, "phosphorus": 40, "potassium": 30, "timing": "At transplanting" },
+      { "stage": "Flowering", "nitrogen": 30, "phosphorus": 0, "potassium": 20, "timing": "30 days" },
+      { "stage": "Fruiting", "nitrogen": 30, "phosphorus": 0, "potassium": 20, "timing": "60 days" }
+    ],
+    "calendar": {
+      "sowing": ["Jun", "Jul"],
+      "vegetative": ["Jul", "Aug"],
+      "flowering": ["Sep", "Oct"],
+      "maturity": ["Nov"],
+      "harvest": ["Nov", "Dec", "Jan"]
+    },
+    "msp": null,
+    "pest_diseases": ["Thrips", "Fruit Rot", "Leaf Curl Virus", "Powdery Mildew"]
+  },
+  {
+    "id": "CROP017",
+    "name": "Banana",
+    "aliases": ["Kela", "केला"],
+    "scientific_name": "Musa paradisiaca",
+    "family": "Musaceae",
+    "category": "Fruits",
+    "season": "Kharif",
+    "crop_duration": 365,
+    "expected_yield": 500,
+    "water_requirement": 1800,
+    "soil_type": ["Loamy", "Clay Loam"],
+    "ph_range": { "min": 6.0, "max": 7.5 },
+    "description": "Banana is the most important fruit crop in India. India is the largest producer of bananas in the world.",
+    "seed": {
+      "rate": 2500,
+      "germination": 90,
+      "viability": 1,
+      "planting_depth": 30,
+      "spacing": "180x180",
+      "treatment": "Carbendazim dip for suckers"
+    },
+    "temperature": {
+      "optimal_min": 25,
+      "optimal_max": 35,
+      "critical_min": 12,
+      "critical_max": 42,
+      "frost_tolerance": "Very Low"
+    },
+    "fertilizer": [
+      { "stage": "2 Months", "nitrogen": 65, "phosphorus": 25, "potassium": 65, "timing": "2 months after planting" },
+      { "stage": "4 Months", "nitrogen": 65, "phosphorus": 25, "potassium": 65, "timing": "4 months" },
+      { "stage": "6 Months", "nitrogen": 70, "phosphorus": 0, "potassium": 70, "timing": "6 months" }
+    ],
+    "calendar": {
+      "sowing": ["Jun", "Jul"],
+      "vegetative": ["Aug", "Sep", "Oct", "Nov", "Dec"],
+      "flowering": ["Jan", "Feb"],
+      "maturity": ["Mar", "Apr"],
+      "harvest": ["May", "Jun"]
+    },
+    "msp": null,
+    "pest_diseases": ["Panama Wilt", "Bunchy Top Virus", "Sigatoka Leaf Spot", "Stem Borer"]
+  },
+  {
+    "id": "CROP018",
+    "name": "Mango",
+    "aliases": ["Aam", "आम"],
+    "scientific_name": "Mangifera indica",
+    "family": "Anacardiaceae",
+    "category": "Fruits",
+    "season": "Summer",
+    "crop_duration": 1825,
+    "expected_yield": 100,
+    "water_requirement": 800,
+    "soil_type": ["Alluvial", "Laterite", "Sandy Loam"],
+    "ph_range": { "min": 5.5, "max": 7.5 },
+    "description": "Mango is the 'King of Fruits' and India's national fruit. India is the largest producer of mangoes in the world.",
+    "seed": {
+      "rate": 70,
+      "germination": 80,
+      "viability": 1,
+      "planting_depth": 30,
+      "spacing": "1000x1000",
+      "treatment": "Grafted plants preferred"
+    },
+    "temperature": {
+      "optimal_min": 24,
+      "optimal_max": 30,
+      "critical_min": 10,
+      "critical_max": 45,
+      "frost_tolerance": "Low"
+    },
+    "fertilizer": [
+      { "stage": "Young Tree", "nitrogen": 100, "phosphorus": 50, "potassium": 100, "timing": "Split in 2 doses (Jun, Sep)" },
+      { "stage": "Bearing Tree", "nitrogen": 500, "phosphorus": 250, "potassium": 500, "timing": "After harvest" }
+    ],
+    "calendar": {
+      "sowing": ["Jul", "Aug"],
+      "vegetative": ["Sep", "Oct", "Nov", "Dec"],
+      "flowering": ["Jan", "Feb"],
+      "maturity": ["Mar", "Apr"],
+      "harvest": ["May", "Jun", "Jul"]
+    },
+    "msp": null,
+    "pest_diseases": ["Mango Hopper", "Powdery Mildew", "Anthracnose", "Fruit Fly"]
+  },
+  {
+    "id": "CROP019",
+    "name": "Tea",
+    "aliases": ["Chai", "चाय"],
+    "scientific_name": "Camellia sinensis",
+    "family": "Theaceae",
+    "category": "Cash Crops",
+    "season": "Kharif",
+    "crop_duration": 1095,
+    "expected_yield": 20,
+    "water_requirement": 1500,
+    "soil_type": ["Acidic Loam", "Forest Soil"],
+    "ph_range": { "min": 4.5, "max": 5.5 },
+    "description": "Tea is one of the most important plantation crops in India. India is the second-largest tea producer in the world after China.",
+    "seed": {
+      "rate": 12000,
+      "germination": 60,
+      "viability": 1,
+      "planting_depth": 10,
+      "spacing": "120x75",
+      "treatment": "Vegetative propagation preferred"
+    },
+    "temperature": {
+      "optimal_min": 13,
+      "optimal_max": 28,
+      "critical_min": 5,
+      "critical_max": 35,
+      "frost_tolerance": "Moderate"
+    },
+    "fertilizer": [
+      { "stage": "Young Bush", "nitrogen": 60, "phosphorus": 30, "potassium": 30, "timing": "Split in 3 doses" },
+      { "stage": "Mature Bush", "nitrogen": 150, "phosphorus": 50, "potassium": 50, "timing": "Split in 4 doses" }
+    ],
+    "calendar": {
+      "sowing": ["Jun", "Jul"],
+      "vegetative": ["Year-round"],
+      "flowering": ["Oct", "Nov"],
+      "maturity": ["Perennial"],
+      "harvest": ["Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov"]
+    },
+    "msp": null,
+    "pest_diseases": ["Red Spider Mite", "Tea Mosquito Bug", "Blister Blight", "Grey Blight"]
+  },
+  {
+    "id": "CROP020",
+    "name": "Coffee",
+    "aliases": ["Coffee", "कॉफ़ी"],
+    "scientific_name": "Coffea arabica",
+    "family": "Rubiaceae",
+    "category": "Cash Crops",
+    "season": "Kharif",
+    "crop_duration": 1460,
+    "expected_yield": 10,
+    "water_requirement": 1600,
+    "soil_type": ["Red Laterite", "Forest Loam"],
+    "ph_range": { "min": 5.0, "max": 6.5 },
+    "description": "Coffee is an important plantation crop grown in southern India. Karnataka alone produces about 70% of India's coffee.",
+    "seed": {
+      "rate": 2500,
+      "germination": 65,
+      "viability": 1,
+      "planting_depth": 15,
+      "spacing": "200x200",
+      "treatment": "Nursery raised seedlings"
+    },
+    "temperature": {
+      "optimal_min": 15,
+      "optimal_max": 28,
+      "critical_min": 10,
+      "critical_max": 35,
+      "frost_tolerance": "Low"
+    },
+    "fertilizer": [
+      { "stage": "Young Plant", "nitrogen": 40, "phosphorus": 30, "potassium": 40, "timing": "Split in 2 doses" },
+      { "stage": "Bearing Plant", "nitrogen": 160, "phosphorus": 120, "potassium": 160, "timing": "Pre-monsoon + Post-monsoon" }
+    ],
+    "calendar": {
+      "sowing": ["Jun", "Jul"],
+      "vegetative": ["Year-round"],
+      "flowering": ["Feb", "Mar"],
+      "maturity": ["Oct", "Nov"],
+      "harvest": ["Nov", "Dec", "Jan", "Feb"]
+    },
+    "msp": null,
+    "pest_diseases": ["Coffee Berry Borer", "White Stem Borer", "Leaf Rust", "Black Rot"]
+  },
+  {
+    "id": "CROP021",
+    "name": "Jute",
+    "aliases": ["Patsan", "जूट", "Golden Fiber"],
+    "scientific_name": "Corchorus capsularis",
+    "family": "Malvaceae",
+    "category": "Cash Crops",
+    "season": "Kharif",
+    "crop_duration": 120,
+    "expected_yield": 25,
+    "water_requirement": 500,
+    "soil_type": ["Alluvial", "Sandy Loam"],
+    "ph_range": { "min": 6.0, "max": 7.5 },
+    "description": "Jute is called the 'Golden Fiber' and is the cheapest natural fiber. India is the largest producer of jute in the world.",
+    "seed": {
+      "rate": 7,
+      "germination": 80,
+      "viability": 2,
+      "planting_depth": 2,
+      "spacing": "25x7",
+      "treatment": "Carbendazim @ 2g/kg seed"
+    },
+    "temperature": {
+      "optimal_min": 24,
+      "optimal_max": 37,
+      "critical_min": 18,
+      "critical_max": 42,
+      "frost_tolerance": "Very Low"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 20, "phosphorus": 20, "potassium": 20, "timing": "At sowing" },
+      { "stage": "Top Dress", "nitrogen": 40, "phosphorus": 0, "potassium": 0, "timing": "30 days after sowing" }
+    ],
+    "calendar": {
+      "sowing": ["Mar", "Apr"],
+      "vegetative": ["May", "Jun", "Jul"],
+      "flowering": ["Aug"],
+      "maturity": ["Aug"],
+      "harvest": ["Aug", "Sep"]
+    },
+    "msp": 5050,
+    "pest_diseases": ["Stem Rot", "Semilooper", "Yellow Mite", "Apion Weevil"]
+  },
+  {
+    "id": "CROP022",
+    "name": "Sunflower",
+    "aliases": ["Surajmukhi", "सूरजमुखी"],
+    "scientific_name": "Helianthus annuus",
+    "family": "Asteraceae",
+    "category": "Oilseeds",
+    "season": "Rabi",
+    "crop_duration": 95,
+    "expected_yield": 15,
+    "water_requirement": 450,
+    "soil_type": ["Sandy Loam", "Black Soil"],
+    "ph_range": { "min": 6.5, "max": 8.0 },
+    "description": "Sunflower is an important oilseed crop valued for its high-quality edible oil with good fatty acid profile. Can be grown in all three seasons.",
+    "seed": {
+      "rate": 10,
+      "germination": 85,
+      "viability": 2,
+      "planting_depth": 4,
+      "spacing": "60x30",
+      "treatment": "Imidacloprid seed treatment"
+    },
+    "temperature": {
+      "optimal_min": 20,
+      "optimal_max": 28,
+      "critical_min": 8,
+      "critical_max": 38,
+      "frost_tolerance": "Moderate"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 30, "phosphorus": 40, "potassium": 30, "timing": "At sowing" },
+      { "stage": "Button Stage", "nitrogen": 30, "phosphorus": 0, "potassium": 0, "timing": "30 days after sowing" }
+    ],
+    "calendar": {
+      "sowing": ["Jan", "Feb"],
+      "vegetative": ["Feb", "Mar"],
+      "flowering": ["Mar", "Apr"],
+      "maturity": ["Apr"],
+      "harvest": ["Apr", "May"]
+    },
+    "msp": 6760,
+    "pest_diseases": ["Head Rot", "Alternaria Leaf Spot", "Sunflower Moth", "Necrosis Virus"]
+  },
+  {
+    "id": "CROP023",
+    "name": "Barley",
+    "aliases": ["Jau", "जौ"],
+    "scientific_name": "Hordeum vulgare",
+    "family": "Poaceae",
+    "category": "Cereals",
+    "season": "Rabi",
+    "crop_duration": 130,
+    "expected_yield": 40,
+    "water_requirement": 300,
+    "soil_type": ["Sandy Loam", "Loamy", "Saline Soil"],
+    "ph_range": { "min": 6.0, "max": 8.5 },
+    "description": "Barley is an important cereal crop known for its drought and salinity tolerance. Used for food, feed, and malt production.",
+    "seed": {
+      "rate": 100,
+      "germination": 85,
+      "viability": 2,
+      "planting_depth": 5,
+      "spacing": "22x5",
+      "treatment": "Vitavax @ 2.5g/kg seed"
+    },
+    "temperature": {
+      "optimal_min": 12,
+      "optimal_max": 22,
+      "critical_min": -5,
+      "critical_max": 35,
+      "frost_tolerance": "High"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 30, "phosphorus": 30, "potassium": 20, "timing": "At sowing" },
+      { "stage": "Top Dress", "nitrogen": 30, "phosphorus": 0, "potassium": 0, "timing": "30 days after sowing" }
+    ],
+    "calendar": {
+      "sowing": ["Oct", "Nov"],
+      "vegetative": ["Nov", "Dec", "Jan"],
+      "flowering": ["Jan", "Feb"],
+      "maturity": ["Feb", "Mar"],
+      "harvest": ["Mar", "Apr"]
+    },
+    "msp": 1735,
+    "pest_diseases": ["Stripe Rust", "Loose Smut", "Aphids", "Powdery Mildew"]
+  },
+  {
+    "id": "CROP024",
+    "name": "Jowar",
+    "aliases": ["Sorghum", "ज्वार", "Juar"],
+    "scientific_name": "Sorghum bicolor",
+    "family": "Poaceae",
+    "category": "Cereals",
+    "season": "Kharif",
+    "crop_duration": 100,
+    "expected_yield": 30,
+    "water_requirement": 400,
+    "soil_type": ["Black Soil", "Red Soil", "Loamy"],
+    "ph_range": { "min": 6.0, "max": 8.5 },
+    "description": "Jowar (Sorghum) is an important millet crop, drought-tolerant and widely grown in dryland farming. Also used as fodder.",
+    "seed": {
+      "rate": 10,
+      "germination": 80,
+      "viability": 2,
+      "planting_depth": 4,
+      "spacing": "45x15",
+      "treatment": "Thiram @ 3g/kg seed"
+    },
+    "temperature": {
+      "optimal_min": 25,
+      "optimal_max": 33,
+      "critical_min": 10,
+      "critical_max": 45,
+      "frost_tolerance": "Low"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 40, "phosphorus": 40, "potassium": 20, "timing": "At sowing" },
+      { "stage": "Top Dress", "nitrogen": 40, "phosphorus": 0, "potassium": 0, "timing": "30 days after sowing" }
+    ],
+    "calendar": {
+      "sowing": ["Jun", "Jul"],
+      "vegetative": ["Jul", "Aug"],
+      "flowering": ["Aug", "Sep"],
+      "maturity": ["Sep", "Oct"],
+      "harvest": ["Oct"]
+    },
+    "msp": 3180,
+    "pest_diseases": ["Shoot Fly", "Stem Borer", "Grain Mold", "Downy Mildew"]
+  },
+  {
+    "id": "CROP025",
+    "name": "Bajra",
+    "aliases": ["Pearl Millet", "बाजरा"],
+    "scientific_name": "Pennisetum glaucum",
+    "family": "Poaceae",
+    "category": "Cereals",
+    "season": "Kharif",
+    "crop_duration": 80,
+    "expected_yield": 25,
+    "water_requirement": 350,
+    "soil_type": ["Sandy", "Sandy Loam"],
+    "ph_range": { "min": 6.5, "max": 8.0 },
+    "description": "Bajra (Pearl Millet) is the most drought-tolerant cereal crop. It is a nutritional powerhouse with high iron and zinc content.",
+    "seed": {
+      "rate": 5,
+      "germination": 85,
+      "viability": 2,
+      "planting_depth": 2,
+      "spacing": "45x15",
+      "treatment": "Metalaxyl @ 6g/kg seed"
+    },
+    "temperature": {
+      "optimal_min": 25,
+      "optimal_max": 35,
+      "critical_min": 15,
+      "critical_max": 45,
+      "frost_tolerance": "Very Low"
+    },
+    "fertilizer": [
+      { "stage": "Basal", "nitrogen": 40, "phosphorus": 20, "potassium": 0, "timing": "At sowing" },
+      { "stage": "Top Dress", "nitrogen": 40, "phosphorus": 0, "potassium": 0, "timing": "25 days after sowing" }
+    ],
+    "calendar": {
+      "sowing": ["Jun", "Jul"],
+      "vegetative": ["Jul", "Aug"],
+      "flowering": ["Aug"],
+      "maturity": ["Sep"],
+      "harvest": ["Sep", "Oct"]
+    },
+    "msp": 2500,
+    "pest_diseases": ["Downy Mildew", "Ergot", "Stem Borer", "Blast"]
+  }
+]

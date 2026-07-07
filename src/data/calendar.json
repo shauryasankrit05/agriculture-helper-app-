@@ -1,0 +1,30 @@
+{
+  "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+  "seasons": {
+    "Kharif": {
+      "period": "June - November",
+      "description": "Monsoon season crops, sown with the onset of southwest monsoon",
+      "months": ["Jun", "Jul", "Aug", "Sep", "Oct", "Nov"],
+      "color": "#16a34a"
+    },
+    "Rabi": {
+      "period": "October - March",
+      "description": "Winter season crops, sown after the monsoon and harvested in spring",
+      "months": ["Oct", "Nov", "Dec", "Jan", "Feb", "Mar"],
+      "color": "#3b82f6"
+    },
+    "Summer": {
+      "period": "March - June",
+      "description": "Summer/Zaid crops, grown between Rabi and Kharif seasons",
+      "months": ["Mar", "Apr", "May", "Jun"],
+      "color": "#f59e0b"
+    }
+  },
+  "phases": {
+    "sowing": { "label": "Sowing", "color": "#8b5cf6", "icon": "🌱" },
+    "vegetative": { "label": "Vegetative Growth", "color": "#22c55e", "icon": "🌿" },
+    "flowering": { "label": "Flowering", "color": "#f59e0b", "icon": "🌸" },
+    "maturity": { "label": "Maturity", "color": "#ef4444", "icon": "🌾" },
+    "harvest": { "label": "Harvest", "color": "#06b6d4", "icon": "🚜" }
+  }
+}

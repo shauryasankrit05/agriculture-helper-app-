@@ -1,0 +1,18 @@
+[
+  { "crop": "Wheat", "msp_2024": 2275, "msp_2023": 2125, "market_avg": 2400, "unit": "₹/quintal" },
+  { "crop": "Rice", "msp_2024": 2203, "msp_2023": 2040, "market_avg": 2500, "unit": "₹/quintal" },
+  { "crop": "Maize", "msp_2024": 2090, "msp_2023": 1962, "market_avg": 2200, "unit": "₹/quintal" },
+  { "crop": "Cotton", "msp_2024": 6620, "msp_2023": 6080, "market_avg": 7000, "unit": "₹/quintal" },
+  { "crop": "Sugarcane", "msp_2024": 315, "msp_2023": 305, "market_avg": 350, "unit": "₹/quintal" },
+  { "crop": "Soybean", "msp_2024": 4600, "msp_2023": 4300, "market_avg": 4800, "unit": "₹/quintal" },
+  { "crop": "Groundnut", "msp_2024": 6377, "msp_2023": 5850, "market_avg": 6500, "unit": "₹/quintal" },
+  { "crop": "Mustard", "msp_2024": 5650, "msp_2023": 5050, "market_avg": 5900, "unit": "₹/quintal" },
+  { "crop": "Chickpea", "msp_2024": 5440, "msp_2023": 5100, "market_avg": 5700, "unit": "₹/quintal" },
+  { "crop": "Lentil", "msp_2024": 6425, "msp_2023": 5500, "market_avg": 6800, "unit": "₹/quintal" },
+  { "crop": "Mung Bean", "msp_2024": 8558, "msp_2023": 7755, "market_avg": 9000, "unit": "₹/quintal" },
+  { "crop": "Barley", "msp_2024": 1735, "msp_2023": 1600, "market_avg": 1800, "unit": "₹/quintal" },
+  { "crop": "Jowar", "msp_2024": 3180, "msp_2023": 2970, "market_avg": 3400, "unit": "₹/quintal" },
+  { "crop": "Bajra", "msp_2024": 2500, "msp_2023": 2350, "market_avg": 2700, "unit": "₹/quintal" },
+  { "crop": "Sunflower", "msp_2024": 6760, "msp_2023": 6200, "market_avg": 7000, "unit": "₹/quintal" },
+  { "crop": "Jute", "msp_2024": 5050, "msp_2023": 4750, "market_avg": 5200, "unit": "₹/quintal" }
+]

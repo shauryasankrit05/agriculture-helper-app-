@@ -1,0 +1,90 @@
+[
+  {
+    "id": "FERT001",
+    "name": "Urea",
+    "type": "Chemical",
+    "npk_ratio": "46:0:0",
+    "nitrogen": 46, "phosphorus": 0, "potassium": 0,
+    "application_rate": 100,
+    "crops": ["Wheat", "Rice", "Maize", "Sugarcane", "Cotton"],
+    "price_per_kg": 5.36,
+    "organic_alternative": "Vermicompost + Neem Cake"
+  },
+  {
+    "id": "FERT002",
+    "name": "DAP (Di-ammonium Phosphate)",
+    "type": "Chemical",
+    "npk_ratio": "18:46:0",
+    "nitrogen": 18, "phosphorus": 46, "potassium": 0,
+    "application_rate": 50,
+    "crops": ["Wheat", "Rice", "Cotton", "Soybean", "Mustard"],
+    "price_per_kg": 27.0,
+    "organic_alternative": "Bone Meal + Vermicompost"
+  },
+  {
+    "id": "FERT003",
+    "name": "MOP (Muriate of Potash)",
+    "type": "Chemical",
+    "npk_ratio": "0:0:60",
+    "nitrogen": 0, "phosphorus": 0, "potassium": 60,
+    "application_rate": 50,
+    "crops": ["Sugarcane", "Potato", "Banana", "Tomato", "Cotton"],
+    "price_per_kg": 16.5,
+    "organic_alternative": "Wood Ash + Banana Stem Compost"
+  },
+  {
+    "id": "FERT004",
+    "name": "SSP (Single Super Phosphate)",
+    "type": "Chemical",
+    "npk_ratio": "0:16:0",
+    "nitrogen": 0, "phosphorus": 16, "potassium": 0,
+    "application_rate": 100,
+    "crops": ["Groundnut", "Soybean", "Chickpea", "Onion"],
+    "price_per_kg": 8.0,
+    "organic_alternative": "Rock Phosphate"
+  },
+  {
+    "id": "FERT005",
+    "name": "NPK Complex (10:26:26)",
+    "type": "Chemical",
+    "npk_ratio": "10:26:26",
+    "nitrogen": 10, "phosphorus": 26, "potassium": 26,
+    "application_rate": 75,
+    "crops": ["Tomato", "Potato", "Onion", "Chili"],
+    "price_per_kg": 24.0,
+    "organic_alternative": "Compost + Bone Meal + Wood Ash"
+  },
+  {
+    "id": "FERT006",
+    "name": "Vermicompost",
+    "type": "Organic",
+    "npk_ratio": "1.5:0.5:0.8",
+    "nitrogen": 1.5, "phosphorus": 0.5, "potassium": 0.8,
+    "application_rate": 5000,
+    "crops": ["All Crops"],
+    "price_per_kg": 8.0,
+    "organic_alternative": null
+  },
+  {
+    "id": "FERT007",
+    "name": "Neem Cake",
+    "type": "Organic",
+    "npk_ratio": "5:1:1",
+    "nitrogen": 5, "phosphorus": 1, "potassium": 1,
+    "application_rate": 250,
+    "crops": ["Rice", "Sugarcane", "Vegetables"],
+    "price_per_kg": 15.0,
+    "organic_alternative": null
+  },
+  {
+    "id": "FERT008",
+    "name": "FYM (Farmyard Manure)",
+    "type": "Organic",
+    "npk_ratio": "0.5:0.2:0.5",
+    "nitrogen": 0.5, "phosphorus": 0.2, "potassium": 0.5,
+    "application_rate": 10000,
+    "crops": ["All Crops"],
+    "price_per_kg": 2.0,
+    "organic_alternative": null
+  }
+]
